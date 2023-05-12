@@ -54,12 +54,18 @@
   * Marcar a confirmação se o recibo está carimbado por uma empresa conveniada ou não
   * Caso o recibo esteja carimbado selecionar a empresa conveniada
   Se o usuário não inserir uma placa e ainda assim precionar o botão de saída, uma mensagem de erro também será exibida <br>
-  Se o usuário inserir uma placa que não está no patio, uma mensagem de erro será exibida
+  Se o usuário inserir uma placa que não está no patio, uma mensagem de erro será exibida <br>
   Se o usuário marcar o check button de recibo carimbado uma menssagem confirmando a saída do veículo será exibida <br>
-  Se o usuário não marcar o check button de recibo carimbado e pressionar enten ou cliclar no botão de sáida uma nova janela será aberta:
+  Se o usuário não marcar o check button de recibo carimbado e pressionar enten ou cliclar no botão de sáida uma nova janela será aberta para fazer o cálculo do valor a ser pago e do troco:
   
  <div align = 'center'>
    <img src = 'https://github.com/lucasdm148/Projeto-Estacionamento/assets/86303047/974d87cd-fa98-4529-9ada-db2d8ac83644' width = 700px>
+</div>
+<br>
+
+<p> Também é possível adicionar um veículo mensalista clicando no menu "Mensalistas" -> "Adicionar Mensalistas", no qual a seguinte janela será aberta</p>
+ <div align = 'center'>
+   <img src = 'https://github.com/lucasdm148/Projeto-Estacionamento/issues/7#issue-1708293822'>
 </div>
 
 <h2>Tecnologias Utilizadas</h2>
@@ -70,6 +76,7 @@
   * Biblioteca datetime para manipulação de datas e horas
   * Sqlite3 como banco de dados
 
+  Além disso existem diversos recusos de Binding no projeto, como menus pop-ups que acionam ao cliclar com botão direito, 
 </p>
 </p>
 
