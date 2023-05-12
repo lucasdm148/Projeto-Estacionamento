@@ -1,7 +1,7 @@
 <h1> Projeto Estacionamento </h1>
 
 <p>Este projeto visa criar uma aplicação para o gerenciamento do patio de um estacionamento <br>
-⚠️ Atenção!! Projeto Ainda em Desenvolvimento, faltam muitas aplicações!!</p>
+⚠️ Atenção!! Projeto Ainda em Desenvolvimento, faltam muitos recursos!!</p>
 
 <h2>⚙️ Funcionamento </h2>
 <p>O projeto possui duas tabs: 
@@ -29,11 +29,48 @@
   <br>
   Se o usuário inserir todas as informações corretamente, uma messagebox de confirmação será acionada:
   
-  ![img-confirmação](https://github.com/lucasdm148/Projeto-Estacionamento/assets/86303047/3a922b54-482b-4a92-a22b-bfc902e4af1f)
-
-  Ao pressionar Enter ou em ok o veículo será inserido na treewiew. <br>
-  Se o usuário inserir a placa de um veículo que já esteja no partio, uma messagebox de erro será exibida:
+ <div align = 'center'>
+   <img src = 'https://github.com/lucasdm148/Projeto-Estacionamento/assets/86303047/3a922b54-482b-4a92-a22b-bfc902e4af1f' width = 700px>
+</div>
+  Ao pressionar Enter ou em ok o veículo será inserido na treewiew. <br><br>
+  Se o usuário inserir a placa de um veículo que já esteja no partio, uma messagebox de erro será exibida: <br>
   
+ <div align = 'center'>
+   <img src = 'https://github.com/lucasdm148/Projeto-Estacionamento/assets/86303047/d39ceaa4-5196-4dd4-8483-a3c10feca582' width = 700px>
+</div>
+  
+  Se o usuário inserir a placa de um veículo cadastrado no banco de dados do sistema como mensalista, a seguinte mensagem de alerta será exibida: 
+  
+ <div align = 'center'>
+   <img src = 'https://github.com/lucasdm148/Projeto-Estacionamento/issues/5#issue-1708267334' width = 700px>
+</div>
+
 <p>
+  
+<h3>Saída de Veículo</h3>
+<p>O usuário deve inserir as seguintes informações: 
+  
+  * Placa do veículo a sair do pátio (Essa informação é obrigatória)
+  * Marcar a confirmação se o recibo está carimbado por uma empresa conveniada ou não
+  * Caso o recibo esteja carimbado selecionar a empresa conveniada
+  Se o usuário não inserir uma placa e ainda assim precionar o botão de saída, uma mensagem de erro também será exibida <br>
+  Se o usuário inserir uma placa que não está no patio, uma mensagem de erro será exibida
+  Se o usuário marcar o check button de recibo carimbado uma menssagem confirmando a saída do veículo será exibida <br>
+  Se o usuário não marcar o check button de recibo carimbado e pressionar enten ou cliclar no botão de sáida uma nova janela será aberta:
+  
+ <div align = 'center'>
+   <img src = 'https://github.com/lucasdm148/Projeto-Estacionamento/assets/86303047/974d87cd-fa98-4529-9ada-db2d8ac83644' width = 700px>
+</div>
+
+<h2>Tecnologias Utilizadas</h2>
+<p>Para esse projeto foi utilizado o seguinte Stack:
+  
+  * Linguagem de programção python3
+  * Bibliotecas Tkinter e Custom Tkinter para a criação das GUIs
+  * Biblioteca datetime para manipulação de datas e horas
+  * Sqlite3 como banco de dados
+
+</p>
+</p>
 
 
