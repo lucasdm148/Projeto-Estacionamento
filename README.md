@@ -18,8 +18,10 @@
   * Tipo de Veículo: Se trata de carro ou moto?
   * Cor (Essa característica não é obrigatória)
   * Marca (Essa Característica não é obrigatória)
+  
   ![Imagem-Entrada](https://github.com/lucasdm148/Projeto-Estacionamento/assets/86303047/6d448c30-f0c7-4c5a-a115-a535a2c86e14)
   <br>
+  
   Se o usuário clicar em "Entrada" sem haver digitado a placa, a seguinte imagem de erro aparecerá na tela: 
   
 <p>
