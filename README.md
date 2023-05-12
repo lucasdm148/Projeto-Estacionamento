@@ -29,6 +29,11 @@
   <br>
   Se o usuário inserir todas as informações corretamente, uma messagebox de confirmação será acionada:
   
+  ![img-confirmação](https://github.com/lucasdm148/Projeto-Estacionamento/assets/86303047/3a922b54-482b-4a92-a22b-bfc902e4af1f)
+
+  Ao pressionar Enter ou em ok o veículo será inserido na treewiew. <br>
+  Se o usuário inserir a placa de um veículo que já esteja no partio, uma messagebox de erro será exibida:
+  
 <p>
 
 
