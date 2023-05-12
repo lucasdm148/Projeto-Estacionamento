@@ -14,6 +14,7 @@
 
 <h3>Entrada do Veículo </h3>
 <p>Basicamente o usuário deve fornecer as caractéristicas do veículo que está entrando no pátio, sendo elas:
+  
   * Placa (❗Essa característica é obrigatória)
   * Tipo de Veículo: Se trata de carro ou moto?
   * Cor (Essa característica não é obrigatória)
@@ -23,6 +24,10 @@
   <br>
   
   Se o usuário clicar em "Entrada" sem haver digitado a placa, a seguinte imagem de erro aparecerá na tela: 
+  
+  ![imagem - erro](https://github.com/lucasdm148/Projeto-Estacionamento/assets/86303047/e65091df-c03f-4b09-a51a-a435e09381c7)
+  <br>
+  Se o usuário inserir todas as informações corretamente, uma messagebox de confirmação será acionada:
   
 <p>
 
