@@ -76,7 +76,7 @@
   * Biblioteca datetime para manipulação de datas e horas
   * Sqlite3 como banco de dados
 
-  Além disso existem diversos recusos de Binding no projeto, como menus pop-ups que acionam ao cliclar com botão direito, 
+  Além disso existem diversos recusos de Binding no projeto, como menus pop-ups que acionam ao cliclar com botão direito, clicar duas vezes em uma seleção da treeview e vários outros
 </p>
 </p>
 
